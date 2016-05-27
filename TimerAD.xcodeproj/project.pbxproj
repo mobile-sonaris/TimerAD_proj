@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C02106FC45128A21D97A3CE7 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5DE81AE1EF9B50B5465997 /* Pods.framework */; };
+		E833B38E1CF621B70042263C /* FavouritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E833B38D1CF621B70042263C /* FavouritesTableViewController.swift */; };
+		E833B3901CF621D80042263C /* FavouritesMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E833B38F1CF621D80042263C /* FavouritesMapViewController.swift */; };
+		E833B3921CF63F4E0042263C /* RestaurantCollapseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E833B3911CF63F4E0042263C /* RestaurantCollapseViewController.swift */; };
+		E833B3941CF641E50042263C /* RestaurantListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E833B3931CF641E50042263C /* RestaurantListViewController.swift */; };
+		E84382931CF49A120007C130 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84382921CF49A110007C130 /* HomeViewController.swift */; };
+		E84382991CF4A2CB0007C130 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84382981CF4A2CB0007C130 /* ShoppingViewController.swift */; };
+		E843829C1CF4A2DF0007C130 /* FashionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E843829B1CF4A2DF0007C130 /* FashionViewController.swift */; };
+		E843829F1CF4A2F40007C130 /* SpaBeautyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E843829E1CF4A2F40007C130 /* SpaBeautyViewController.swift */; };
+		E84382A21CF4A3090007C130 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84382A11CF4A3090007C130 /* FavouritesViewController.swift */; };
+		E84382A51CF4A42E0007C130 /* AllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84382A41CF4A42E0007C130 /* AllViewController.swift */; };
+		E858280B1CF601A400E457ED /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E858280A1CF601A400E457ED /* RestaurantViewController.swift */; };
+		E858280D1CF6191500E457ED /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E858280C1CF6191500E457ED /* RestaurantTableViewController.swift */; };
+		E858280F1CF6193E00E457ED /* RestaurantMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E858280E1CF6193E00E457ED /* RestaurantMapViewController.swift */; };
+		E8847D681CF4DC250052CF66 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8847D671CF4DC240052CF66 /* ProfileViewController.swift */; };
+		E8847D6A1CF4F06C0052CF66 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = E8847D691CF4F06C0052CF66 /* test.png */; };
+		E8847D6F1CF5390B0052CF66 /* deal1.png in Resources */ = {isa = PBXBuildFile; fileRef = E8847D6D1CF5390B0052CF66 /* deal1.png */; };
+		E8847D701CF5390B0052CF66 /* deal2.png in Resources */ = {isa = PBXBuildFile; fileRef = E8847D6E1CF5390B0052CF66 /* deal2.png */; };
+		E8A190291CF2A99400A845BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A190281CF2A99400A845BD /* AppDelegate.swift */; };
+		E8A1902E1CF2A99400A845BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8A1902C1CF2A99400A845BD /* Main.storyboard */; };
+		E8A190311CF2A99400A845BD /* TimerAD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8A1902F1CF2A99400A845BD /* TimerAD.xcdatamodeld */; };
+		E8A190331CF2A99400A845BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8A190321CF2A99400A845BD /* Assets.xcassets */; };
+		E8A190361CF2A99400A845BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8A190341CF2A99400A845BD /* LaunchScreen.storyboard */; };
+		E8A190411CF2A99400A845BD /* TimerADTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A190401CF2A99400A845BD /* TimerADTests.swift */; };
+		E8A1904C1CF2A99400A845BD /* TimerADUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A1904B1CF2A99400A845BD /* TimerADUITests.swift */; };
+		E8A1905D1CF2AE6000A845BD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A1905C1CF2AE6000A845BD /* LoginViewController.swift */; };
+		E8A190611CF2B38F00A845BD /* registration.png in Resources */ = {isa = PBXBuildFile; fileRef = E8A190601CF2B38F00A845BD /* registration.png */; };
+		E8A190651CF334BD00A845BD /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A190641CF334BD00A845BD /* SignViewController.swift */; };
+		E8A1906A1CF4007400A845BD /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A190691CF4007400A845BD /* SWRevealViewController.m */; };
+		E8A1906D1CF41FA100A845BD /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A1906C1CF41FA100A845BD /* MenuViewController.swift */; };
+		E8A190701CF4202000A845BD /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A1906F1CF4202000A845BD /* StartViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8A1903D1CF2A99400A845BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8A1901D1CF2A99400A845BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8A190241CF2A99400A845BD;
+			remoteInfo = TimerAD;
+		};
+		E8A190481CF2A99400A845BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8A1901D1CF2A99400A845BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8A190241CF2A99400A845BD;
+			remoteInfo = TimerAD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45E387BD62E21776BE2A6E0E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9E5DE81AE1EF9B50B5465997 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9AC7A9B4C3675350FEBC1B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E833B38D1CF621B70042263C /* FavouritesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouritesTableViewController.swift; sourceTree = "<group>"; };
+		E833B38F1CF621D80042263C /* FavouritesMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouritesMapViewController.swift; sourceTree = "<group>"; };
+		E833B3911CF63F4E0042263C /* RestaurantCollapseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantCollapseViewController.swift; sourceTree = "<group>"; };
+		E833B3931CF641E50042263C /* RestaurantListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantListViewController.swift; sourceTree = "<group>"; };
+		E84382921CF49A110007C130 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E84382981CF4A2CB0007C130 /* ShoppingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
+		E843829B1CF4A2DF0007C130 /* FashionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FashionViewController.swift; sourceTree = "<group>"; };
+		E843829E1CF4A2F40007C130 /* SpaBeautyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaBeautyViewController.swift; sourceTree = "<group>"; };
+		E84382A11CF4A3090007C130 /* FavouritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		E84382A41CF4A42E0007C130 /* AllViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllViewController.swift; sourceTree = "<group>"; };
+		E858280A1CF601A400E457ED /* RestaurantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		E858280C1CF6191500E457ED /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		E858280E1CF6193E00E457ED /* RestaurantMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantMapViewController.swift; sourceTree = "<group>"; };
+		E8847D671CF4DC240052CF66 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E8847D691CF4F06C0052CF66 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		E8847D6D1CF5390B0052CF66 /* deal1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deal1.png; sourceTree = "<group>"; };
+		E8847D6E1CF5390B0052CF66 /* deal2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deal2.png; sourceTree = "<group>"; };
+		E8A190251CF2A99400A845BD /* TimerAD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerAD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A190281CF2A99400A845BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8A1902D1CF2A99400A845BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8A190301CF2A99400A845BD /* TimerAD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimerAD.xcdatamodel; sourceTree = "<group>"; };
+		E8A190321CF2A99400A845BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8A190351CF2A99400A845BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8A190371CF2A99400A845BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8A1903C1CF2A99400A845BD /* TimerADTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerADTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A190401CF2A99400A845BD /* TimerADTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerADTests.swift; sourceTree = "<group>"; };
+		E8A190421CF2A99400A845BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8A190471CF2A99400A845BD /* TimerADUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerADUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A1904B1CF2A99400A845BD /* TimerADUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerADUITests.swift; sourceTree = "<group>"; };
+		E8A1904D1CF2A99400A845BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8A1905C1CF2AE6000A845BD /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E8A190601CF2B38F00A845BD /* registration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = registration.png; sourceTree = "<group>"; };
+		E8A190641CF334BD00A845BD /* SignViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
+		E8A190671CF4007300A845BD /* TimerAD-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimerAD-Bridging-Header.h"; sourceTree = "<group>"; };
+		E8A190681CF4007400A845BD /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		E8A190691CF4007400A845BD /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		E8A1906C1CF41FA100A845BD /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		E8A1906F1CF4202000A845BD /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8A190221CF2A99400A845BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02106FC45128A21D97A3CE7 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8A190391CF2A99400A845BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8A190441CF2A99400A845BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32489E04E9C89E673507DF87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E5DE81AE1EF9B50B5465997 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E5DF04E1646F23967053224 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F9AC7A9B4C3675350FEBC1B /* Pods.debug.xcconfig */,
+				45E387BD62E21776BE2A6E0E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E84382911CF499EB0007C130 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E84382921CF49A110007C130 /* HomeViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		E84382941CF4A28F0007C130 /* Restaurants */ = {
+			isa = PBXGroup;
+			children = (
+				E858280A1CF601A400E457ED /* RestaurantViewController.swift */,
+				E858280C1CF6191500E457ED /* RestaurantTableViewController.swift */,
+				E858280E1CF6193E00E457ED /* RestaurantMapViewController.swift */,
+				E833B3911CF63F4E0042263C /* RestaurantCollapseViewController.swift */,
+				E833B3931CF641E50042263C /* RestaurantListViewController.swift */,
+			);
+			name = Restaurants;
+			sourceTree = "<group>";
+		};
+		E84382971CF4A2B10007C130 /* Shopping */ = {
+			isa = PBXGroup;
+			children = (
+				E84382981CF4A2CB0007C130 /* ShoppingViewController.swift */,
+			);
+			name = Shopping;
+			sourceTree = "<group>";
+		};
+		E843829A1CF4A2D10007C130 /* Fashion */ = {
+			isa = PBXGroup;
+			children = (
+				E843829B1CF4A2DF0007C130 /* FashionViewController.swift */,
+			);
+			name = Fashion;
+			sourceTree = "<group>";
+		};
+		E843829D1CF4A2E50007C130 /* SpaBeauty */ = {
+			isa = PBXGroup;
+			children = (
+				E843829E1CF4A2F40007C130 /* SpaBeautyViewController.swift */,
+			);
+			name = SpaBeauty;
+			sourceTree = "<group>";
+		};
+		E84382A01CF4A2F90007C130 /* Favourites */ = {
+			isa = PBXGroup;
+			children = (
+				E84382A11CF4A3090007C130 /* FavouritesViewController.swift */,
+				E833B38D1CF621B70042263C /* FavouritesTableViewController.swift */,
+				E833B38F1CF621D80042263C /* FavouritesMapViewController.swift */,
+			);
+			name = Favourites;
+			sourceTree = "<group>";
+		};
+		E84382A31CF4A41A0007C130 /* ViewAll */ = {
+			isa = PBXGroup;
+			children = (
+				E84382A41CF4A42E0007C130 /* AllViewController.swift */,
+			);
+			name = ViewAll;
+			sourceTree = "<group>";
+		};
+		E8847D661CF4CC870052CF66 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				E8847D671CF4DC240052CF66 /* ProfileViewController.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		E8A1901C1CF2A99400A845BD = {
+			isa = PBXGroup;
+			children = (
+				E8A190271CF2A99400A845BD /* TimerAD */,
+				E8A1903F1CF2A99400A845BD /* TimerADTests */,
+				E8A1904A1CF2A99400A845BD /* TimerADUITests */,
+				E8A190261CF2A99400A845BD /* Products */,
+				5E5DF04E1646F23967053224 /* Pods */,
+				32489E04E9C89E673507DF87 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E8A190261CF2A99400A845BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8A190251CF2A99400A845BD /* TimerAD.app */,
+				E8A1903C1CF2A99400A845BD /* TimerADTests.xctest */,
+				E8A190471CF2A99400A845BD /* TimerADUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8A190271CF2A99400A845BD /* TimerAD */ = {
+			isa = PBXGroup;
+			children = (
+				E8A190661CF4004600A845BD /* View */,
+				E8A1905E1CF2B2A700A845BD /* Resources */,
+				E8A190591CF2ADDC00A845BD /* ViewController */,
+				E8A190281CF2A99400A845BD /* AppDelegate.swift */,
+				E8A1902C1CF2A99400A845BD /* Main.storyboard */,
+				E8A190321CF2A99400A845BD /* Assets.xcassets */,
+				E8A190341CF2A99400A845BD /* LaunchScreen.storyboard */,
+				E8A190371CF2A99400A845BD /* Info.plist */,
+				E8A1902F1CF2A99400A845BD /* TimerAD.xcdatamodeld */,
+			);
+			path = TimerAD;
+			sourceTree = "<group>";
+		};
+		E8A1903F1CF2A99400A845BD /* TimerADTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8A190401CF2A99400A845BD /* TimerADTests.swift */,
+				E8A190421CF2A99400A845BD /* Info.plist */,
+			);
+			path = TimerADTests;
+			sourceTree = "<group>";
+		};
+		E8A1904A1CF2A99400A845BD /* TimerADUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E8A1904B1CF2A99400A845BD /* TimerADUITests.swift */,
+				E8A1904D1CF2A99400A845BD /* Info.plist */,
+			);
+			path = TimerADUITests;
+			sourceTree = "<group>";
+		};
+		E8A190591CF2ADDC00A845BD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E8847D661CF4CC870052CF66 /* Profile */,
+				E84382A31CF4A41A0007C130 /* ViewAll */,
+				E84382A01CF4A2F90007C130 /* Favourites */,
+				E843829D1CF4A2E50007C130 /* SpaBeauty */,
+				E843829A1CF4A2D10007C130 /* Fashion */,
+				E84382971CF4A2B10007C130 /* Shopping */,
+				E84382941CF4A28F0007C130 /* Restaurants */,
+				E84382911CF499EB0007C130 /* Home */,
+				E8A1906E1CF4200D00A845BD /* Startup */,
+				E8A1906B1CF41F9100A845BD /* Menu */,
+				E8A1905B1CF2ADF100A845BD /* Sign */,
+				E8A1905A1CF2ADEB00A845BD /* Login */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		E8A1905A1CF2ADEB00A845BD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E8A1905C1CF2AE6000A845BD /* LoginViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		E8A1905B1CF2ADF100A845BD /* Sign */ = {
+			isa = PBXGroup;
+			children = (
+				E8A190641CF334BD00A845BD /* SignViewController.swift */,
+			);
+			name = Sign;
+			sourceTree = "<group>";
+		};
+		E8A1905E1CF2B2A700A845BD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E8A1905F1CF2B2C100A845BD /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E8A1905F1CF2B2C100A845BD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E8847D6D1CF5390B0052CF66 /* deal1.png */,
+				E8847D6E1CF5390B0052CF66 /* deal2.png */,
+				E8847D691CF4F06C0052CF66 /* test.png */,
+				E8A190601CF2B38F00A845BD /* registration.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		E8A190661CF4004600A845BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E8A190681CF4007400A845BD /* SWRevealViewController.h */,
+				E8A190691CF4007400A845BD /* SWRevealViewController.m */,
+				E8A190671CF4007300A845BD /* TimerAD-Bridging-Header.h */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E8A1906B1CF41F9100A845BD /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				E8A1906C1CF41FA100A845BD /* MenuViewController.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		E8A1906E1CF4200D00A845BD /* Startup */ = {
+			isa = PBXGroup;
+			children = (
+				E8A1906F1CF4202000A845BD /* StartViewController.swift */,
+			);
+			name = Startup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8A190241CF2A99400A845BD /* TimerAD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8A190501CF2A99400A845BD /* Build configuration list for PBXNativeTarget "TimerAD" */;
+			buildPhases = (
+				295D3A5757C3CE0DEA6D4D8F /* Check Pods Manifest.lock */,
+				E8A190211CF2A99400A845BD /* Sources */,
+				E8A190221CF2A99400A845BD /* Frameworks */,
+				E8A190231CF2A99400A845BD /* Resources */,
+				E6087C3FC1AF75E3B5DCDA42 /* Embed Pods Frameworks */,
+				1A572C6AB0B9E76D0DE09E3A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimerAD;
+			productName = TimerAD;
+			productReference = E8A190251CF2A99400A845BD /* TimerAD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8A1903B1CF2A99400A845BD /* TimerADTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8A190531CF2A99400A845BD /* Build configuration list for PBXNativeTarget "TimerADTests" */;
+			buildPhases = (
+				E8A190381CF2A99400A845BD /* Sources */,
+				E8A190391CF2A99400A845BD /* Frameworks */,
+				E8A1903A1CF2A99400A845BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8A1903E1CF2A99400A845BD /* PBXTargetDependency */,
+			);
+			name = TimerADTests;
+			productName = TimerADTests;
+			productReference = E8A1903C1CF2A99400A845BD /* TimerADTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E8A190461CF2A99400A845BD /* TimerADUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8A190561CF2A99400A845BD /* Build configuration list for PBXNativeTarget "TimerADUITests" */;
+			buildPhases = (
+				E8A190431CF2A99400A845BD /* Sources */,
+				E8A190441CF2A99400A845BD /* Frameworks */,
+				E8A190451CF2A99400A845BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8A190491CF2A99400A845BD /* PBXTargetDependency */,
+			);
+			name = TimerADUITests;
+			productName = TimerADUITests;
+			productReference = E8A190471CF2A99400A845BD /* TimerADUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8A1901D1CF2A99400A845BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Designoasis;
+				TargetAttributes = {
+					E8A190241CF2A99400A845BD = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = T465VT483Y;
+					};
+					E8A1903B1CF2A99400A845BD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E8A190241CF2A99400A845BD;
+					};
+					E8A190461CF2A99400A845BD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E8A190241CF2A99400A845BD;
+					};
+				};
+			};
+			buildConfigurationList = E8A190201CF2A99400A845BD /* Build configuration list for PBXProject "TimerAD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8A1901C1CF2A99400A845BD;
+			productRefGroup = E8A190261CF2A99400A845BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8A190241CF2A99400A845BD /* TimerAD */,
+				E8A1903B1CF2A99400A845BD /* TimerADTests */,
+				E8A190461CF2A99400A845BD /* TimerADUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8A190231CF2A99400A845BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8847D701CF5390B0052CF66 /* deal2.png in Resources */,
+				E8A190361CF2A99400A845BD /* LaunchScreen.storyboard in Resources */,
+				E8847D6F1CF5390B0052CF66 /* deal1.png in Resources */,
+				E8847D6A1CF4F06C0052CF66 /* test.png in Resources */,
+				E8A190331CF2A99400A845BD /* Assets.xcassets in Resources */,
+				E8A190611CF2B38F00A845BD /* registration.png in Resources */,
+				E8A1902E1CF2A99400A845BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8A1903A1CF2A99400A845BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8A190451CF2A99400A845BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A572C6AB0B9E76D0DE09E3A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		295D3A5757C3CE0DEA6D4D8F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E6087C3FC1AF75E3B5DCDA42 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8A190211CF2A99400A845BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A1905D1CF2AE6000A845BD /* LoginViewController.swift in Sources */,
+				E858280B1CF601A400E457ED /* RestaurantViewController.swift in Sources */,
+				E843829F1CF4A2F40007C130 /* SpaBeautyViewController.swift in Sources */,
+				E84382A51CF4A42E0007C130 /* AllViewController.swift in Sources */,
+				E8A190701CF4202000A845BD /* StartViewController.swift in Sources */,
+				E8A1906D1CF41FA100A845BD /* MenuViewController.swift in Sources */,
+				E84382A21CF4A3090007C130 /* FavouritesViewController.swift in Sources */,
+				E84382931CF49A120007C130 /* HomeViewController.swift in Sources */,
+				E84382991CF4A2CB0007C130 /* ShoppingViewController.swift in Sources */,
+				E858280F1CF6193E00E457ED /* RestaurantMapViewController.swift in Sources */,
+				E833B3941CF641E50042263C /* RestaurantListViewController.swift in Sources */,
+				E8A190311CF2A99400A845BD /* TimerAD.xcdatamodeld in Sources */,
+				E8A1906A1CF4007400A845BD /* SWRevealViewController.m in Sources */,
+				E8A190291CF2A99400A845BD /* AppDelegate.swift in Sources */,
+				E8847D681CF4DC250052CF66 /* ProfileViewController.swift in Sources */,
+				E843829C1CF4A2DF0007C130 /* FashionViewController.swift in Sources */,
+				E833B3901CF621D80042263C /* FavouritesMapViewController.swift in Sources */,
+				E833B3921CF63F4E0042263C /* RestaurantCollapseViewController.swift in Sources */,
+				E858280D1CF6191500E457ED /* RestaurantTableViewController.swift in Sources */,
+				E8A190651CF334BD00A845BD /* SignViewController.swift in Sources */,
+				E833B38E1CF621B70042263C /* FavouritesTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8A190381CF2A99400A845BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A190411CF2A99400A845BD /* TimerADTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8A190431CF2A99400A845BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A1904C1CF2A99400A845BD /* TimerADUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8A1903E1CF2A99400A845BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8A190241CF2A99400A845BD /* TimerAD */;
+			targetProxy = E8A1903D1CF2A99400A845BD /* PBXContainerItemProxy */;
+		};
+		E8A190491CF2A99400A845BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8A190241CF2A99400A845BD /* TimerAD */;
+			targetProxy = E8A190481CF2A99400A845BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8A1902C1CF2A99400A845BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8A1902D1CF2A99400A845BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8A190341CF2A99400A845BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8A190351CF2A99400A845BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8A1904E1CF2A99400A845BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8A1904F1CF2A99400A845BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8A190511CF2A99400A845BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F9AC7A9B4C3675350FEBC1B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TimerAD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = designoasis.TimerAD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TimerAD/TimerAD-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8A190521CF2A99400A845BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45E387BD62E21776BE2A6E0E /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TimerAD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = designoasis.TimerAD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TimerAD/TimerAD-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E8A190541CF2A99400A845BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TimerADTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = designoasis.TimerADTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimerAD.app/TimerAD";
+			};
+			name = Debug;
+		};
+		E8A190551CF2A99400A845BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TimerADTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = designoasis.TimerADTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimerAD.app/TimerAD";
+			};
+			name = Release;
+		};
+		E8A190571CF2A99400A845BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TimerADUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = designoasis.TimerADUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TimerAD;
+			};
+			name = Debug;
+		};
+		E8A190581CF2A99400A845BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TimerADUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = designoasis.TimerADUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TimerAD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8A190201CF2A99400A845BD /* Build configuration list for PBXProject "TimerAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8A1904E1CF2A99400A845BD /* Debug */,
+				E8A1904F1CF2A99400A845BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8A190501CF2A99400A845BD /* Build configuration list for PBXNativeTarget "TimerAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8A190511CF2A99400A845BD /* Debug */,
+				E8A190521CF2A99400A845BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8A190531CF2A99400A845BD /* Build configuration list for PBXNativeTarget "TimerADTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8A190541CF2A99400A845BD /* Debug */,
+				E8A190551CF2A99400A845BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8A190561CF2A99400A845BD /* Build configuration list for PBXNativeTarget "TimerADUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8A190571CF2A99400A845BD /* Debug */,
+				E8A190581CF2A99400A845BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E8A1902F1CF2A99400A845BD /* TimerAD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E8A190301CF2A99400A845BD /* TimerAD.xcdatamodel */,
+			);
+			currentVersion = E8A190301CF2A99400A845BD /* TimerAD.xcdatamodel */;
+			path = TimerAD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E8A1901D1CF2A99400A845BD /* Project object */;
+}
